@@ -1,0 +1,19 @@
+.causes {
+    @include flex(row);
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    color: #fff;
+}
+.header-cos {
+    background: #fff;
+    z-index: 111;
+}
+.cause-mis {
+    height: 100vh;
+    padding: 80px 20px;
+    h3 {
+        color: $success;
+    }
+}
