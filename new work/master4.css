@@ -1,9 +1,10 @@
   body{
     background-color: #E5E5E5;
   }
-  .container{
+  .container1{
         text-align: left;
         margin-top: 50px;
+        margin-bottom: 40px;
     }
     .donate{
         text-align: center;
@@ -11,7 +12,7 @@
     }
     .another{
         background-color: #ffffff;
-        width: 522px;
+        width: 50%;
         margin: auto;
         padding: 20px;
         padding-left: 50px;
@@ -31,13 +32,6 @@
         font-weight: 600;
         width: 40%;
     }
-    #thisid{
-        float: right;
-        margin-top: -40px;
-        margin-right: 80px;
-        color: #8CCBE7;
-        font-weight: 500;
-    }
     .form-control{
         font-size: 12px;
         width: 76%;
@@ -50,13 +44,32 @@
         width: 87%;
         font-size: 14px;
     }
-    .paypal{
-        float: right;
-        margin-right: 80px;
-        margin-top: -20px;
-    }
     .mastercard{
         float: right;
-        margin-right: 110px;
-        margin-top: 19px;
+        margin-top: 5px;
+        margin-right: 25%;
+    }
+    .btn-block {
+        margin-bottom: 10px;
+    }
+    a#thisid {
+        padding: 10px;
+        color: #000;
+    }
+    @media (max-width:768px) {
+        .container {
+            padding-bottom: 20px;
+        }
+        .another {
+            width: 70%;
+        }
+    }
+    @media (max-width:425px) {
+        .another {
+            width: 80%;
+        }
+        .donate {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
     }
