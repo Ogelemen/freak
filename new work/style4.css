@@ -1,17 +1,17 @@
 body{
     background-color: #E5E5E5;
 }
-.container{
+.container1{
     text-align: center;
     margin-top: 50px;
 }
 #thisid{
-    padding: 100px;
     font-size: 12px;
     width: 76%;
     margin-right: 70px;
     height: 200px;
     margin-left: -40px;
+    height: 50vh;
 }
 #float{
     text-align: left;
@@ -20,7 +20,7 @@ body{
 }
 .another{
     background-color: #ffffff;
-    width: 522px;
+    width: 50%;
     margin: auto;
     padding: 20px;
     padding-left: 50px;
@@ -72,12 +72,23 @@ span{
     color: #27AE60;
     text-decoration: none;
 }
-#malibu{
-    margin-left: -100px;
+@media (max-width:1016px) {
+    .another {
+        width: 70%;
+    }
 }
-@media screen and (min-width:320px){
-    #malibu{
-       margin-right: -240px;
-       padding: 20px auto;
+@media (max-width:767px) {
+    .another {
+        width: 80%;
+    }
+    #thisid {
+        width: 100%;
+    }
+    .btn-block {
+        width: 100%;
+    }
+    #impact {
+        margin: 0;
+        display: block;
     }
 }
